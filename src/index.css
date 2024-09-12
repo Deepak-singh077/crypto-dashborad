@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding:0;
+    margin:0;
+    border-sizing:border-box;
+    color:white;
+ 
+    
+}
+
+
+a{
+    text-decoration :none;
+    color:inherit;
+}
+
+.app{
+    background:linear-gradient(#0b004e , #1d152f , #002834);
+}
+
+
+.Navbar li{
+    list-style:none;
+}
+
+select {
+    background:linear-gradient(#0b004e , #1d152f , #002834);
+}
+option{
+    color:black;
+}
